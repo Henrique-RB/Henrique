@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(179, 179, 221) ;
+}
+
+body h3 {
+    color: rgb(206, 200, 233);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body p {
+    color: rgb(128, 29, 29);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    background-color: rgb(110, 161, 15);
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+#itensList li {
+    cursor: pointer;
+    padding: 5px;
+    transition: background-color 0.2s;
+}
+
+#itensList li:hover {
+    background-color: purple;
+}
+
+#itensList li.selected {
+    background-color: orange;
+    color: white;
+}
